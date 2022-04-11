@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.main-cadastro{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #201b2c;
+}
+
+.left-cadastro{
+    width: 50vw;
+    height: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.right-cadastro {
+    width: 50vw;
+    height: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
