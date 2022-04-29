@@ -29,3 +29,85 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.left-cadastro > h1{
+    color: aqua;
+    font-weight: 800;
+    margin: 0;
+}
+.card-cadastro > h1{
+    font-weight: 800;
+    color: aqua;
+    margin: 0;
+    
+}
+
+.card-cadastro{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+    background: #2f2841;
+    border-radius: 15px;
+    box-shadow: 0PX 10PX 40PX #00000056;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 20vw;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #514869;
+    color: aliceblue;
+    font-size: 12pt;
+    box-shadow:  0PX 10PX 40PX #00000056;
+}
+
+.textfield > label{
+    color: rgb(223, 216, 208);
+    margin-bottom: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.textfield > label:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+.btn-cadastrar{
+    width: 70%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 10px;
+    background: #77ffc0;
+    justify-items: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2f2841;
+    box-shadow: 0px 10px 40px #00000056;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    background-color: aqua;
+    transition: all 0.5s;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(128, 198, 211, 0.5));
+}
